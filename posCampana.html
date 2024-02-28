@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="img/logo-cala.svg" alt="" />
+        </a>
+        <div class="navigation">
+          <ul>
+            <li><a href="#ganadores">Ganadores</a></li>
+            <li>
+              <a href="#preguntas">Preguntas frecuentes</a>
+            </li>
+            <li class="btnMenu">
+              <button>
+                <img src="img/btnmenu.svg" alt="" />
+                <img src="img/closebtnmenu.svg" alt="" class="close" />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="menuMovil">
+      <div class="container">
+        <ul>
+          <li><a href="#ganadores">Ganadores</a></li>
+          <li>
+            <a href="#preguntas">Preguntas frecuentes</a>
+          </li>
+        </ul>
+        <div class="redes">
+          <span>Síguenos en:</span>
+          <div class="content">
+            <div>
+              <span>Moncler</span>
+              <a href="https://www.facebook.com/monclerperu/" target="_blank"
+                ><img
+                  src="https://cuidadoquepremia.com/wp-content/themes/Cala/img/icon-facebook.svg"
+                  alt=""
+              /></a>
+              <a
+                href="https://www.instagram.com/monclerperu/?hl=es"
+                target="_blank"
+                ><img
+                  src="https://cuidadoquepremia.com/wp-content/themes/Cala/img/icon-instagram.svg"
+                  alt=""
+              /></a>
+            </div>
+            <div>
+              <span>Caricia</span>
+              <a href="https://www.facebook.com/cariciaperu/" target="_blank"
+                ><img
+                  src="https://cuidadoquepremia.com/wp-content/themes/Cala/img/icon-facebook.svg"
+                  alt=""
+              /></a>
+              <a
+                href="https://www.instagram.com/cariciaperu/?hl=es"
+                target="_blank"
+                ><img
+                  src="https://cuidadoquepremia.com/wp-content/themes/Cala/img/icon-instagram.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <!-- 
+      <div class="billetesLeft">
+        <img src="img/billete1.webp" alt="" class="billete1" />
+        <img src="img/billete2.webp" alt="" class="billete2" />
+        <img src="img/billete3.webp" alt="" class="billete3" />
+        <img src="img/billete4.webp" alt="" class="billete4" />
+        <img src="img/billete1.webp" alt="" class="billete5" />
+        <img src="img/billete5.webp" alt="" class="billete6" />
+        <img src="img/billete2.webp" alt="" class="billete7" />
+        <img src="img/billete6.webp" alt="" class="billete8" />
+        <img src="img/billete7.webp" alt="" class="billete9" />
+      </div>
+      <div class="billetesRight">
+        <img src="img/billete7.webp" alt="" class="billete10" />
+        <img src="img/billete1.webp" alt="" class="billete11" />
+        <img src="img/billete3.webp" alt="" class="billete12" />
+        <img src="img/billete8.webp" alt="" class="billete13" />
+        <img src="img/billete9.webp" alt="" class="billete14" />
+        <img src="img/billete7.webp" alt="" class="billete15" />
+        <img src="img/billete1.webp" alt="" class="billete16" />
+        <img src="img/billete5.webp" alt="" class="billete17" />
+        <img src="img/billete6.webp" alt="" class="billete18" />
+        <img src="img/billete10.webp" alt="" class="billete19" />
+      </div>
+       -->
+      <div class="scroll">
+        <img
+          src="img/billetesIzquierda.webp"
+          alt=""
+          class="billetesIzquierda"
+        />
+        <img src="img/billetesDerecha.webp" alt="" class="billetesDerecha" />
+        <div class="fondo">
+          <img src="img/fondo2.webp" alt="" class="fondo1" />
+        </div>
+        <section class="hero2">
+          <div class="container">
+            <div
+              class="content"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
+              <img src="img/personaje-moncler.webp" alt="" class="personaje" />
+              <img src="img/title.webp" alt="" class="title" />
+            </div>
+          </div>
+        </section>
+        <section class="ganadores escritorio" id="ganadores">
+          <div class="container">
+            <h1
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
+              ¡Felicidades a los ganadores!
+            </h1>
+            <div
+              class="botones"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
+              <button class="select" data-category="premioMil">
+                Premio de $1000
+              </button>
+              <button data-category="premioCamisetas">Camisetas</button>
+            </div>
+            <div
+              class="listaContent"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
+              <div class="tabla">
+                <div class="header">
+                  <div>Nombre del participante</div>
+                  <div>N° de boleta</div>
+                </div>
+                <div class="cuerpo" data-category="premioCamisetas">
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                </div>
+                <div class="cuerpo premioMil select" data-category="premioMil">
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="gandoresmovil">
+          <div class="container">
+            <h1
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
+              ¡Felicidades a los ganadores!
+            </h1>
+          </div>
+          <div class="tab tab1 select">
+            <div class="cabecera">
+              <h2>Premio de $1000</h2>
+              <img src="img/flechaazul.svg" alt="" />
+            </div>
+            <div class="container">
+              <div class="tabla">
+                <div class="header">
+                  <div>Nombre del participante</div>
+                  <div>N° de boleta</div>
+                </div>
+                <div class="cuerpo">
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab tab2">
+            <div class="cabecera">
+              <h2>Camisetas de la FPF</h2>
+              <img src="img/flechaazul.svg" alt="" />
+            </div>
+            <div class="container">
+              <div class="tabla">
+                <div class="header">
+                  <div>Nombre del participante</div>
+                  <div>N° de boleta</div>
+                </div>
+                <div class="cuerpo select" data-category="premioCamisetas">
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                  <div class="item">
+                    <div>xxxxxx xxxxxxxxxxxx xxxxxxxxxx xxxxxxxx</div>
+                    <div>00000000000</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="contentAnuncio">
+          <div class="anuncio">
+            <div class="title">
+              <h2
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-once="true"
+              >
+                Atento a los próximos sorteos
+                <img
+                  src="img/megafono.webp"
+                  alt=""
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
+                />
+              </h2>
+            </div>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+              Estaremos publicando las novedades en nuestras redes sociales.
+            </p>
+          </div>
+        </div>
+      </div>
+      <section class="preguntas" id="preguntas">
+        <div class="container">
+          <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+            Preguntas frecuentes
+          </h2>
+          <div class="contentPreguntas">
+            <div
+              class="item"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
+              <div class="cabecera">
+                <h3>¿Qué pasa si gano y no tengo mi boleta física?</h3>
+                <img src="img/icon-close.svg" alt="" class="close" />
+                <img src="img/icon-open.svg" alt="" class="open" />
+              </div>
+              <div class="contentText">
+                <p>
+                  Según las bases del sorteo Cuidado que Premia, es necesario
+                  tener la boleta con la cual se participa para recibir el
+                  premio. En caso la ganadora/el ganador no lo presente, quedará
+                  descalificado y se volverá a realizar un nuevo sorteo para ese
+                  premio.
+                </p>
+              </div>
+            </div>
+            <div
+              class="item"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
+              <div class="cabecera">
+                <h3>¿Las entregas de los premios son virtuales o físicas?</h3>
+                <img src="img/icon-close.svg" alt="" class="close" />
+                <img src="img/icon-open.svg" alt="" class="open" />
+              </div>
+              <div class="contentText">
+                <p>
+                  Grupo Cala se encargará de gestionar el envío de los premios
+                  hasta las instalaciones del servicio de mensajería designado.
+                  En el caso del único premio de $ 1000 (mil dólares
+                  americanos), esa coordinación se hará con el ganador una vez
+                  terminado el sorteo.
+                </p>
+              </div>
+            </div>
+            <div
+              class="item"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
+              <div class="cabecera">
+                <h3>¿Puede otra persona a recoger el premio por mi?</h3>
+                <img src="img/icon-close.svg" alt="" class="close" />
+                <img src="img/icon-open.svg" alt="" class="open" />
+              </div>
+              <div class="contentText">
+                <p>
+                  En caso el usuario no se encuentre en su domicilio cuando
+                  entregen el premio, deberá avisar o coordinar con previa
+                  anticipación a través de las redes sociales de las marcas.
+                </p>
+              </div>
+            </div>
+            <div
+              class="item"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
+              <div class="cabecera">
+                <h3>
+                  ¿Dónde puedo dejar mi queja sobre algo ocurrido sobre el
+                  sorteo ‘‘Cuidado Que Premia’’?
+                </h3>
+                <img src="img/icon-close.svg" alt="" class="close" />
+                <img src="img/icon-open.svg" alt="" class="open" />
+              </div>
+              <div class="contentText">
+                <p>
+                  El usuario puede escribir a las redes en Facebook e Instagram
+                  de Moncler y Caricia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="registrate new">
+        <div class="filtro"></div>
+        <div class="fondos">
+          <img src="img/fondo-rayos.webp" alt="" class="fondoRayos" />
+          <img
+            src="img/fondo-rayos2.webp"
+            alt=""
+            class="fondoRayosResponsive"
+          />
+          <img src="img/fondo-puntos.webp" alt="" class="fondoPuntos" />
+        </div>
+        <div class="container">
+          <div class="part1">
+            <h2
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
+              Visita nuestra web
+            </h2>
+            <p
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="300"
+            >
+              Conoce nuestra variedad de productos.
+            </p>
+            <a
+              href="https://grupo-cala.com/"
+              target="_blank"
+              class="participar"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="500"
+              >Visítanos</a
+            >
+          </div>
+          <div class="part2">
+            <div
+              class="content"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-once="true"
+            >
+              <img src="img/productos1-1.png" alt="" />
+              <img src="img/productos2-5.png" alt="" class="responsive" />
+              <img src="img/productos3-3.png" alt="" class="responsive2" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="part3"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-once="true"
+        >
+          <img src="img/productos4-1.png" alt="" class="responsive3" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="etapa1">
+          <div class="part1">
+            <a href="https://cuidadoquepremia.com/wp-content/themes/Cala/">
+              <img
+                src="https://cuidadoquepremia.com/wp-content/themes/Cala/img/logo-cala.svg"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="part2">
+            <div class="content2">
+              <span>Síguenos en:</span>
+              <div class="content">
+                <div>
+                  <span>Moncler</span>
+                  <a
+                    href="https://www.facebook.com/monclerperu/"
+                    target="_blank"
+                    ><img
+                      src="https://cuidadoquepremia.com/wp-content/themes/Cala/img/icon-facebook.svg"
+                      alt=""
+                  /></a>
+                  <a
+                    href="https://www.instagram.com/monclerperu/?hl=es"
+                    target="_blank"
+                    ><img
+                      src="https://cuidadoquepremia.com/wp-content/themes/Cala/img/icon-instagram.svg"
+                      alt=""
+                  /></a>
+                </div>
+                <div>
+                  <span>Caricia</span>
+                  <a
+                    href="https://www.facebook.com/cariciaperu/"
+                    target="_blank"
+                    ><img
+                      src="https://cuidadoquepremia.com/wp-content/themes/Cala/img/icon-facebook.svg"
+                      alt=""
+                  /></a>
+                  <a
+                    href="https://www.instagram.com/cariciaperu/?hl=es"
+                    target="_blank"
+                    ><img
+                      src="https://cuidadoquepremia.com/wp-content/themes/Cala/img/icon-instagram.svg"
+                      alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="part3">
+              <button class="preguntas">Preguntas frecuentes</button>
+              <a
+                href="https://cuidadoquepremia.com/wp-content/themes/Cala/pdf/GrupoCala-Terminos-y-Condiciones-Sorteo-Cuidado-Que-Premia.pdf"
+                target="_blank"
+                >Términos y condiciones</a
+              >
+            </div>
+          </div>
+          <div class="part3">
+            <button class="preguntas">Preguntas frecuentes</button>
+            <a
+              href="https://cuidadoquepremia.com/wp-content/themes/Cala/pdf/GrupoCala-Terminos-y-Condiciones-Sorteo-Cuidado-Que-Premia.pdf"
+              target="_blank"
+              >Términos y condiciones</a
+            >
+          </div>
+        </div>
+        <div class="etapa2">
+          <p>Grupo Cala - ©2024 Todos los derechos reservados</p>
+          <p>
+            Made with<img
+              src="https://cuidadoquepremia.com/wp-content/themes/Cala/img/corazon.svg"
+              alt=""
+              class="corazon"
+            /><a href="https://nerdmedia.pe/"
+              ><img
+                src="https://cuidadoquepremia.com/wp-content/themes/Cala/img/logonerd.svg"
+                alt=""
+            /></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js?ver=2018121121"
+      id="gsap-js-js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js?ver=2018121121"
+      id="scrollTrigger-js-js"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.marquee.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
